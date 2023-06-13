@@ -1,0 +1,892 @@
+
+Á¬½ÓÆ÷¡¡°æ±¾8.7.7.211123
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\STARTUP1_L.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\LED.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\DELAY.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\MY_PROJECT.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\CHACK.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ
+Input Object File: c:\users\ÂäÒ¶\desktop\htproject\down_demo\KEY.OBJ
+
+Input Library File: F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0004h     0007h    0004h      CODE               @int0_code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     0008h     0010h    0009h      CODE               _send_byte (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     0011h     0013h    0003h      CODE               _Delay__hx711_us (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     0014h     0017h    0004h      CODE               @t0isr_code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0018h     001bh    0004h      CODE               @t1isr_code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     001ch     002ch    0011h      CODE               _t1isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     002dh     0032h    0006h      CODE               _builtin_holtek_ftinf (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0033h     0037h    0005h      CODE               _chack_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\CHACK.OBJ)
+     00h     0038h     003bh    0004h      CODE               @t2isr_code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     003ch     003fh    0004h      CODE               @UART0_code (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     0040h     0062h    0023h      CODE               @start (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0063h     009ah    0038h      CODE               _t0isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     009bh     00d2h    0038h      CODE               _t2isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00d3h     0100h    002eh      CODE               _UART0 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     0101h     0105h    0005h      CODE               _int0_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     0107h     011ah    0014h      CODE               _int0 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     011bh     0127h    000dh      CODE               itofaz (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0128h     013dh    0016h      CODE               @builtin_holtek_ftdecode (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     013eh     016fh    0032h      CODE               _builtin_holtek_ftdiv (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0170h     019ah    002bh      CODE               @builtin_holtek_ftol (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     019bh     01c9h    002fh      CODE               _builtin_holtek_ftnorm (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01cah     0213h    004ah      CODE               @crom (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0214h     02afh    009ch      CODE               @crom (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     02b0h     0882h    05d3h      CODE               @crom (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0883h     0890h    000eh      CODE               _builtin_holtek_delay_isr00 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0891h     08a5h    0015h      CODE               _delay_ms (c:\users\ÂäÒ¶\desktop\htproject\down_demo\DELAY.OBJ)
+     00h     08a6h     08b5h    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     08b6h     08cah    0015h      CODE               _SendCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     08cbh     08fbh    0031h      CODE               _DoSum (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     08fch     0917h    001ch      CODE               _Uart_SendCMD (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     0918h     095ah    0043h      CODE               _check_key (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     095bh     0975h    001bh      CODE               _memset (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0976h     0984h    000fh      CODE               _ESP8266_Clear (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     0985h     09a2h    001eh      CODE               _strlen (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     09a3h     09dah    0038h      CODE               _strncmp (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     09dbh     0a21h    0047h      CODE               _strstr (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0a22h     0a2fh    000eh      CODE               _ESP8266_WaitRecive (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     0a30h     0a38h    0009h      CODE               _send_char (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     0a39h     0a47h    000fh      CODE               _send_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     0a48h     0a72h    002bh      CODE               _ESP8266_SendCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     0a73h     0a84h    0012h      CODE               _LCD_WrDat (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0a85h     0a96h    0012h      CODE               _LCD_WrCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0a97h     0aa8h    0012h      CODE               _LCD_Set_Pos (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0aa9h     0b69h    00c1h      CODE               _LCD_P50x50Chb (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0b6ah     0bb9h    0050h      CODE               _LCD_P14x16Ch (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0bbah     0bd7h    001eh      CODE               _showMenu (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0bd8h     0befh    0018h      CODE               _LCD_CLS (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0bf0h     0c28h    0039h      CODE               _Water (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0c29h     0c55h    002dh      CODE               _Down (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     0c56h     0d86h    0131h      CODE               _itoa (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     0d87h     0dbch    0036h      CODE               _HX711_Read (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     0dbdh     0e01h    0045h      CODE               _Get_Weight (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     0e02h     0e3dh    003ch      CODE               _Key (c:\users\ÂäÒ¶\desktop\htproject\down_demo\KEY.OBJ)
+     00h     0e3eh     0e7ch    003fh      CODE               _LCD_P6x8Str (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0e7dh     0f17h    009bh      CODE               _showMenu2 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     0f18h     0f36h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0f37h     0fafh    0079h      CODE               _atoi (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0fb0h     0fc5h    0016h      CODE               _strchr (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0fc6h     1024h    005fh      CODE               _ESP8266_GetIPD (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     1025h     106dh    0049h      CODE               _Massage (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     106eh     1086h    0019h      CODE               _LCD_Fill (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     1087h     10cbh    0045h      CODE               _LCD_Init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     10cch     1179h    00aeh      CODE               _ESP8266_Init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     117ah     1189h    0010h      CODE               _uart2_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     118ah     1199h    0010h      CODE               _uart_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     119ah     11a8h    000fh      CODE               _timer2_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     11a9h     11b7h    000fh      CODE               _timer1_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     11b8h     11c2h    000bh      CODE               _timer0_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     11c3h     11cbh    0009h      CODE               _key_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\KEY.OBJ)
+     00h     11cch     11d0h    0005h      CODE               _led_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\LED.OBJ)
+     00h     11d1h     11d8h    0008h      CODE               _Get_Maopi (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     11d9h     125dh    0085h      CODE               _main (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     125eh     127ch    001fh      CODE               _get_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     127dh     133dh    00c1h      CODE               _LCD_P50x50Cha (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     133eh     1393h    0056h      CODE               _LCD_P8x16Str (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     1394h     139ch    0009h      CODE               _send1_char (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     139dh     13abh    000fh      CODE               _send1_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     13ach     13c5h    001ah      CODE               @ROMDATA_BASE (c:\users\ÂäÒ¶\desktop\htproject\down_demo\STARTUP1_L.OBJ)
+     00h     13c6h     13d2h    000dh      CODE               _delay_us (c:\users\ÂäÒ¶\desktop\htproject\down_demo\DELAY.OBJ)
+     00h     13d3h     13e2h    0010h      CODE               _uart1_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     13e3h     1401h    001fh      CODE               _get1_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     0080h     0080h    0001h      DATA     161       @data_ra (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     127       @data_rb (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     94        @data_rc (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     48        @data_rd (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     42        @data_re (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     18        @data_rf (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     19        @data_rg (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     2         @data_rh (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     008dh    0006h      DATA     17.5      ftdata1 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008eh     0094h    0007h      DATA     4.1429    ftdata2 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0095h     0097h    0003h      DATA     2         dtdata (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     0099h     0099h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     009ah     009ah    0001h      DATA     3         @data_rb14 (isr:ra~rh)
+     00h     009bh     009bh    0001h      DATA     3         @data_rc14 (isr:ra~rh)
+     00h     009ch     009ch    0001h      DATA     2         @data_rd14 (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     2         @data_re14 (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     2         @data_r138 (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     2         @data_r238 (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     3         @data_rb38 (isr:ra~rh)
+     00h     00a1h     00a1h    0001h      DATA     3         @data_rc38 (isr:ra~rh)
+     00h     00a2h     00a2h    0001h      DATA     2         @data_rd38 (isr:ra~rh)
+     00h     00a3h     00a3h    0001h      DATA     2         @data_re38 (isr:ra~rh)
+     00h     00a4h     00a4h    0001h      DATA     2         @data_r118 (isr:ra~rh)
+     00h     00a5h     00a5h    0001h      DATA     2         @data_r218 (isr:ra~rh)
+     00h     00a6h     00a6h    0001h      DATA     5         @data_rb3c (isr:ra~rh)
+     00h     00a7h     00a7h    0001h      DATA     4         @data_rc3c (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     4         @data_ra3c (isr:ra~rh)
+     00h     00a9h     00a9h    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     00aah     00aah    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     00abh     00abh    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     00ach     00ach    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     00adh     00adh    0001h      DATA     3         @data_ra04 (isr:ra~rh)
+     00h     00e4h     00e5h    0002h      DATA     9         @HCCINIT_ptrIPD (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00e6h     00e7h    0002h      DATA     6         @HCCINIT_sound (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00e8h     00e8h    0001h      DATA     4         @HCCINIT_music (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00e9h     00eah    0002h      DATA     4         @HCCINIT_time2_count (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00ebh     00ech    0002h      DATA     4         @HCCINIT_time0_count (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00edh     00eeh    0002h      DATA     4         @HCCINIT_Weight_Shiwu (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     00efh     00f0h    0002h      DATA     3         @HCCINIT_time1_count (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00f1h     00f2h    0002h      DATA     3         @HCCINIT_flag1 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00f3h     00f4h    0002h      DATA     3         @HCCINIT_flag (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00f5h     00f6h    0002h      DATA     3         @HCCINIT_down_time (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00f7h     00f8h    0002h      DATA     3         @HCCINIT_cnt (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00f9h     00fah    0002h      DATA     2         @HCCINIT_allTime (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00fbh     00fch    0002h      DATA     2         @HCCINIT_waterCount (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00fdh     00feh    0002h      DATA     2         @HCCINIT_downCount (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00ffh     00ffh    0001h      DATA     5         @HCCINIT0_keynumber (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00b0h     00b1h    0002h      DATA     2         @HCCINIT_water_time (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00b2h     00b3h    0002h      DATA     2         @HCCINIT_Weight_Maopi (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     01h     00b4h     00b5h    0002h      DATA     1         @HCCINIT_flag2 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00b6h     00b7h    0002h      DATA     1         @HCCINIT_have_water (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00b8h     00b9h    0002h      DATA     1         @HCCINIT_esp8266_cnt (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     01h     00bah     00bbh    0002h      DATA     0         @HCCINIT_menu_mode (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00bch     00bdh    0002h      DATA     0         @HCCINIT_esp8266_cntPre (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     01h     00beh     00bfh    0002h      DATA     2         @HCCINIT0_newTime (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     01h     00c0h     00c9h    000ah      DATA     0.6       @HCCINIT0_send_buf (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     01h     00cah     00cah    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     01h     00cbh     00cbh    0001h      DATA     2         @data_r338 (isr:ra~rh)
+     01h     00cch     00cch    0001h      DATA     2         @data_r318 (isr:ra~rh)
+     01h     00cdh     00cdh    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     01h     00ceh     00ceh    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     01h     00cfh     00cfh    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     01h     00d0h     00d0h    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     01h     00d1h     00d1h    0001h      DATA     2         @data_r73c (isr:ra~rh)
+     01h     00d2h     00d2h    0001h      DATA     2         @data_r304 (isr:ra~rh)
+     02h     0080h     00ffh    0080h      DATA     0         @HCCINIT0_esp8266_buf (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00e4h     00e4h    0000h      LOCAL    0         @dummy (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00e4h     00e4h    0000h      LOCAL    0         _main (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b5h     00b5h    0000h      LOCAL    0         _Get_Maopi (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     00b1h     00b4h    0004h      LOCAL    5         _HX711_Read (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Delay__hx711_us (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _led_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\LED.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _key_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\KEY.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _timer0_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _timer1_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _timer2_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _uart_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _uart2_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     00c8h     00c8h    0000h      LOCAL    0         _ESP8266_Init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b7h     00b7h    0000h      LOCAL    0         _ESP8266_Clear (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b1h     00b6h    0006h      LOCAL    2.5       _memset (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00c2h     00c7h    0006h      LOCAL    10.333    _ESP8266_SendCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    3         _send_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    1         _send_char (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00b3h     00b3h    0000h      LOCAL    0         _ESP8266_WaitRecive (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b1h     00b2h    0002h      LOCAL    8         _strlen (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b7h     00c1h    000bh      LOCAL    3.7273    _strstr (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b1h     00b6h    0006h      LOCAL    3         _strncmp (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b2h     00b3h    0002h      LOCAL    25        _delay_ms (c:\users\ÂäÒ¶\desktop\htproject\down_demo\DELAY.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _chack_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\CHACK.OBJ)
+     00h     00b5h     00b5h    0000h      LOCAL    0         _LCD_Init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    4         _LCD_WrCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b2h     00b4h    0003h      LOCAL    3         _LCD_Fill (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    4         _LCD_WrDat (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    11        _LCD_Set_Pos (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b4h     00b7h    0004h      LOCAL    7.25      _Uart_SendCMD (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     00b1h     00b3h    0003h      LOCAL    3.6667    _DoSum (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    3         _SendCmd (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    1         _send_byte (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART2.OBJ)
+     00h     00c6h     00c6h    0000h      LOCAL    0         _Massage (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00c2h     00c5h    0004h      LOCAL    5         _ESP8266_GetIPD (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b1h     00b4h    0004h      LOCAL    4.25      _strchr (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00bdh     00c0h    0004h      LOCAL    5.75      _atoi (F:\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00b1h     00bch    000ch      LOCAL    3.0833    _builtin_holtek_mulsi3_isr00 (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00bbh     00bbh    0000h      LOCAL    0         _showMenu (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b4h     00bah    0007h      LOCAL    6.1429    _LCD_P14x16Ch (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     01h     0080h     00afh    0030h      LOCAL    0.3333    _showMenu2 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b1h     00e3h    0033h      LOCAL    2.4118    _itoa (c:\users\ÂäÒ¶\desktop\htproject\down_demo\TIMER.OBJ)
+     00h     00b4h     00bbh    0008h      LOCAL    5         _LCD_P6x8Str (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b4h     00b4h    0000h      LOCAL    0         _Key (c:\users\ÂäÒ¶\desktop\htproject\down_demo\KEY.OBJ)
+     00h     00b5h     00b5h    0000h      LOCAL    0         _Get_Weight (c:\users\ÂäÒ¶\desktop\htproject\down_demo\HX711.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _builtin_holtek_itof (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _builtin_holtek_ftdiv (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _builtin_holtek_ftdecode (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _builtin_holtek_ftol (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00c8h     00c8h    0000h      LOCAL    0         _Down (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    3.5       _LCD_CLS (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b4h     00bch    0009h      LOCAL    9.2222    _LCD_P50x50Chb (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00c8h     00c8h    0000h      LOCAL    0         _Water (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b8h     00b8h    0000h      LOCAL    0         _check_key (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         @dummy20 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _t0isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         @dummy56 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _t2isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         @dummy24 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _t1isr (c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         @dummy60 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00b1h     00b1h    0000h      LOCAL    0         _UART0 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\ESP8266.OBJ)
+     00h     00aeh     00b0h    0003h      LOCAL    2         _get_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART.OBJ)
+     00h     00b2h     00b3h    0002h      LOCAL    2         _send1_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     00b1h     00b1h    0001h      LOCAL    1         _send1_char (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     00aeh     00aeh    0000h      LOCAL    0         @dummy4 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     00aeh     00aeh    0000h      LOCAL    0         _int0 (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     00b4h     00bch    0009h      LOCAL    3.6667    _LCD_P8x16Str (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+     00h     00b4h     00bch    0009h      LOCAL    8.7778    _LCD_P50x50Cha (c:\users\ÂäÒ¶\desktop\htproject\down_demo\OLED.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00b1h     00b2h    0002h      ILOCAL   2         _delay_us (c:\users\ÂäÒ¶\desktop\htproject\down_demo\DELAY.OBJ)
+     00h     00b1h     00b1h    0000h      ILOCAL   0         _uart1_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     00b1h     00b3h    0003h      ILOCAL   1         _get1_buff (c:\users\ÂäÒ¶\desktop\htproject\down_demo\UART1.OBJ)
+     00h     00b1h     00b1h    0000h      ILOCAL   0         _int0_init (c:\users\ÂäÒ¶\desktop\htproject\down_demo\INT.OBJ)
+     00h     00b1h     00b1h    0000h      ILOCAL   0         _builtin_holtek_uitof (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      ILOCAL   0         _builtin_holtek_ftnorm (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00b1h     00b1h    0000h      ILOCAL   0         _builtin_holtek_ftinf (F:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     08a7h              _Crom2Prom
+     08a6h              _Crom2PromNext
+     0011h              _Delay__hx711_us
+     08cbh              _DoSum
+     0c29h              _Down
+     0976h              _ESP8266_Clear
+     0fc6h              _ESP8266_GetIPD
+     10cch              _ESP8266_Init
+     0a48h              _ESP8266_SendCmd
+     0a22h              _ESP8266_WaitRecive
+     05bdh              _F14x16
+     06c0h              _F50x50a
+     0611h              _F50x50b
+     076fh              _F6x8
+     02c5h              _F8X16
+     11d1h              _Get_Maopi
+     0dbdh              _Get_Weight
+     0d87h              _HX711_Read
+     0e02h              _Key
+     0bd8h              _LCD_CLS
+     106eh              _LCD_Fill
+     1087h              _LCD_Init
+     0b6ah              _LCD_P14x16Ch
+     127dh              _LCD_P50x50Cha
+     0aa9h              _LCD_P50x50Chb
+     0e3eh              _LCD_P6x8Str
+     133eh              _LCD_P8x16Str
+     0a97h              _LCD_Set_Pos
+     0a85h              _LCD_WrCmd
+     0a73h              _LCD_WrDat
+     1025h              _Massage
+     08b6h              _SendCmd
+     00d3h              _UART0
+     08fch              _Uart_SendCMD
+     0bf0h              _Water
+     01b2h              _Weight_Maopi
+     00edh              _Weight_Shiwu
+     0885h              __DELAYY0_isr00
+     0885h              __DELAYY1_isr00
+     0884h              __DELAYY2_isr00
+     0884h              __DELAYY3_isr00
+     0883h              __DELAYY4_isr00
+     0883h              __DELAYY5_isr00
+     00f9h              _allTime
+     0f37h              _atoi
+     008bh              _builtin_holtek_exp1
+     0091h              _builtin_holtek_exp2
+     008dh              _builtin_holtek_floatflag
+     0132h              _builtin_holtek_ftdecode1
+     0128h              _builtin_holtek_ftdecode2
+     013eh              _builtin_holtek_ftdiv
+     002dh              _builtin_holtek_ftinf
+     019bh              _builtin_holtek_ftnorm
+     0170h              _builtin_holtek_ftol
+     013ah              _builtin_holtek_ftzero
+     013ch              _builtin_holtek_ftzero1
+     011bh              _builtin_holtek_itof
+     0088h              _builtin_holtek_mant1
+     0095h              _builtin_holtek_mant12p
+     008eh              _builtin_holtek_mant2
+     0f18h              _builtin_holtek_mulsi3_isr00
+     0092h              _builtin_holtek_prod
+     008ch              _builtin_holtek_signs
+     0124h              _builtin_holtek_uitof
+     0033h              _chack_init
+     0918h              _check_key
+     00f7h              _cnt
+     0891h              _delay_ms
+     00b2h              _delay_ms_2
+     13c6h              _delay_us
+     00fdh              _downCount
+     00f5h              _down_time
+     0280h              _esp8266_buf
+     01b8h              _esp8266_cnt
+     01bch              _esp8266_cntPre
+     00f3h              _flag
+     00f1h              _flag1
+     01b4h              _flag2
+     13e3h              _get1_buff
+     125eh              _get_buff
+     00aeh              _get_buff_2
+     01b6h              _have_water
+     0107h              _int0
+     0101h              _int0_init
+     0c56h              _itoa
+     00b4h              _itoa_2
+     11c3h              _key_init
+     00ffh              _keynumber
+     11cch              _led_init
+     11d9h              _main
+     095bh              _memset
+     01bah              _menu_mode
+     00e8h              _music
+     01beh              _newTime
+     00e4h              _ptrIPD
+     139dh              _send1_buff
+     1394h              _send1_char
+     01c0h              _send_buf
+     0a39h              _send_buff
+     0008h              _send_byte
+     0a30h              _send_char
+     0bbah              _showMenu
+     0e7dh              _showMenu2
+     00e6h              _sound
+     0fb0h              _strchr
+     0985h              _strlen
+     09a3h              _strncmp
+     09dbh              _strstr
+     0063h              _t0isr
+     001ch              _t1isr
+     009bh              _t2isr
+     00ebh              _time0_count
+     00efh              _time1_count
+     00e9h              _time2_count
+     11b8h              _timer0_init
+     11a9h              _timer1_init
+     119ah              _timer2_init
+     13d3h              _uart1_init
+     117ah              _uart2_init
+     118ah              _uart_init
+     00fbh              _waterCount
+     01b0h              _water_time
+     00abh              r104
+     0098h              r114
+     00a4h              r118
+     009eh              r138
+     00a9h              r13c
+     00ach              r204
+     0099h              r214
+     00a5h              r218
+     009fh              r238
+     00aah              r23c
+     01d2h              r304
+     01cah              r314
+     01cch              r318
+     01cbh              r338
+     01cdh              r33c
+     01ceh              r43c
+     01cfh              r53c
+     01d0h              r63c
+     01d1h              r73c
+     0080h              ra
+     00adh              ra04
+     00a8h              ra3c
+     0081h              rb
+     009ah              rb14
+     00a0h              rb38
+     00a6h              rb3c
+     0082h              rc
+     009bh              rc14
+     00a1h              rc38
+     00a7h              rc3c
+     0083h              rd
+     009ch              rd14
+     00a2h              rd38
+     0084h              re
+     009dh              re14
+     00a3h              re38
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     13ach              startup_value_1
+
+     Address            Public by Value
+     0008h              _send_byte
+     0011h              _Delay__hx711_us
+     001ch              _t1isr
+     002dh              _builtin_holtek_ftinf
+     0033h              _chack_init
+     0063h              _t0isr
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              _builtin_holtek_mant1
+     008bh              _builtin_holtek_exp1
+     008ch              _builtin_holtek_signs
+     008dh              _builtin_holtek_floatflag
+     008eh              _builtin_holtek_mant2
+     0091h              _builtin_holtek_exp2
+     0092h              _builtin_holtek_prod
+     0095h              _builtin_holtek_mant12p
+     0098h              r114
+     0099h              r214
+     009ah              rb14
+     009bh              rc14
+     009bh              _t2isr
+     009ch              rd14
+     009dh              re14
+     009eh              r138
+     009fh              r238
+     00a0h              rb38
+     00a1h              rc38
+     00a2h              rd38
+     00a3h              re38
+     00a4h              r118
+     00a5h              r218
+     00a6h              rb3c
+     00a7h              rc3c
+     00a8h              ra3c
+     00a9h              r13c
+     00aah              r23c
+     00abh              r104
+     00ach              r204
+     00adh              ra04
+     00aeh              _get_buff_2
+     00b2h              _delay_ms_2
+     00b4h              _itoa_2
+     00d3h              _UART0
+     00e4h              _ptrIPD
+     00e6h              _sound
+     00e8h              _music
+     00e9h              _time2_count
+     00ebh              _time0_count
+     00edh              _Weight_Shiwu
+     00efh              _time1_count
+     00f1h              _flag1
+     00f3h              _flag
+     00f5h              _down_time
+     00f7h              _cnt
+     00f9h              _allTime
+     00fbh              _waterCount
+     00fdh              _downCount
+     00ffh              _keynumber
+     0101h              _int0_init
+     0107h              _int0
+     011bh              _builtin_holtek_itof
+     0124h              _builtin_holtek_uitof
+     0128h              _builtin_holtek_ftdecode2
+     0132h              _builtin_holtek_ftdecode1
+     013ah              _builtin_holtek_ftzero
+     013ch              _builtin_holtek_ftzero1
+     013eh              _builtin_holtek_ftdiv
+     0170h              _builtin_holtek_ftol
+     019bh              _builtin_holtek_ftnorm
+     01b0h              _water_time
+     01b2h              _Weight_Maopi
+     01b4h              _flag2
+     01b6h              _have_water
+     01b8h              _esp8266_cnt
+     01bah              _menu_mode
+     01bch              _esp8266_cntPre
+     01beh              _newTime
+     01c0h              _send_buf
+     01cah              r314
+     01cbh              r338
+     01cch              r318
+     01cdh              r33c
+     01ceh              r43c
+     01cfh              r53c
+     01d0h              r63c
+     01d1h              r73c
+     01d2h              r304
+     0280h              _esp8266_buf
+     02c5h              _F8X16
+     05bdh              _F14x16
+     0611h              _F50x50b
+     06c0h              _F50x50a
+     076fh              _F6x8
+     0883h              __DELAYY4_isr00
+     0883h              __DELAYY5_isr00
+     0884h              __DELAYY2_isr00
+     0884h              __DELAYY3_isr00
+     0885h              __DELAYY0_isr00
+     0885h              __DELAYY1_isr00
+     0891h              _delay_ms
+     08a6h              _Crom2PromNext
+     08a7h              _Crom2Prom
+     08b6h              _SendCmd
+     08cbh              _DoSum
+     08fch              _Uart_SendCMD
+     0918h              _check_key
+     095bh              _memset
+     0976h              _ESP8266_Clear
+     0985h              _strlen
+     09a3h              _strncmp
+     09dbh              _strstr
+     0a22h              _ESP8266_WaitRecive
+     0a30h              _send_char
+     0a39h              _send_buff
+     0a48h              _ESP8266_SendCmd
+     0a73h              _LCD_WrDat
+     0a85h              _LCD_WrCmd
+     0a97h              _LCD_Set_Pos
+     0aa9h              _LCD_P50x50Chb
+     0b6ah              _LCD_P14x16Ch
+     0bbah              _showMenu
+     0bd8h              _LCD_CLS
+     0bf0h              _Water
+     0c29h              _Down
+     0c56h              _itoa
+     0d87h              _HX711_Read
+     0dbdh              _Get_Weight
+     0e02h              _Key
+     0e3eh              _LCD_P6x8Str
+     0e7dh              _showMenu2
+     0f18h              _builtin_holtek_mulsi3_isr00
+     0f37h              _atoi
+     0fb0h              _strchr
+     0fc6h              _ESP8266_GetIPD
+     1025h              _Massage
+     106eh              _LCD_Fill
+     1087h              _LCD_Init
+     10cch              _ESP8266_Init
+     117ah              _uart2_init
+     118ah              _uart_init
+     119ah              _timer2_init
+     11a9h              _timer1_init
+     11b8h              _timer0_init
+     11c3h              _key_init
+     11cch              _led_init
+     11d1h              _Get_Maopi
+     11d9h              _main
+     125eh              _get_buff
+     127dh              _LCD_P50x50Cha
+     133eh              _LCD_P8x16Str
+     1394h              _send1_char
+     139dh              _send1_buff
+     13ach              startup_value_1
+     13c6h              _delay_us
+     13d3h              _uart1_init
+     13e3h              _get1_buff
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     13ffh    62%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     13ffh    7%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0080h    100%
+     01h       0080h     0053h    64%
+     02h       0080h     0080h    100%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     0153h    8%
+
+Use Stack Count
+_main: 5
+_t0isr: 0
+_t2isr: 0
+_t1isr: 0
+_UART0: 1
+_send1_buff: 1
+_int0: 0
+_LCD_P8x16Str: 2
+_LCD_P50x50Cha: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _Get_Maopi (1)
+                _HX711_Read (2)
+                    _Delay__hx711_us (3)
+            _led_init (1)
+            _key_init (1)
+            _timer0_init (1)
+            _timer1_init (1)
+            _timer2_init (1)
+            _uart_init (1)
+            _uart2_init (1)
+            _ESP8266_Init (1)
+                _ESP8266_Clear (2)
+                    _memset (3)
+                _ESP8266_SendCmd (2)
+                    _send_buff (3)
+                        _send_char (4)
+                        _Crom2Prom (4)
+                    _ESP8266_WaitRecive (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                    _ESP8266_Clear (3)
+                        _memset (4)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _chack_init (1)
+            _LCD_Init (1)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _LCD_WrCmd (2)
+                _LCD_Fill (2)
+                    _LCD_WrCmd (3)
+                    _LCD_WrDat (3)
+                _LCD_Set_Pos (2)
+                    _LCD_WrCmd (3)
+            _Uart_SendCMD (1)
+                _DoSum (2)
+                    _Crom2Prom (3)
+                _SendCmd (2)
+                    _send_byte (3)
+                    _Crom2Prom (3)
+            _Massage (1)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _ESP8266_GetIPD (2)
+                    _ESP8266_WaitRecive (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                    _strchr (3)
+                        _Crom2Prom (4)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _atoi (2)
+                    _Crom2Prom (3)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                _ESP8266_Clear (2)
+                    _memset (3)
+            _showMenu (1)
+                _LCD_P14x16Ch (2)
+                    _LCD_Set_Pos (3)
+                        _LCD_WrCmd (4)
+                    _Crom2Prom (3)
+                    _LCD_WrDat (3)
+            _showMenu2 (1)
+                _itoa (2)
+                    _Crom2Prom (3)
+                _LCD_P6x8Str (2)
+                    _LCD_Set_Pos (3)
+                        _LCD_WrCmd (4)
+                    _Crom2Prom (3)
+                    _LCD_WrDat (3)
+            _Key (1)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _Get_Weight (1)
+                _HX711_Read (2)
+                    _Delay__hx711_us (3)
+                _builtin_holtek_itof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _itoa (1)
+                _Crom2Prom (2)
+            _ESP8266_SendCmd (1)
+                _send_buff (2)
+                    _send_char (3)
+                    _Crom2Prom (3)
+                _ESP8266_WaitRecive (2)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                _strstr (2)
+                    _Crom2Prom (3)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                    _strncmp (3)
+                        _Crom2Prom (4)
+                _strlen (2)
+                    _Crom2Prom (3)
+                _ESP8266_Clear (2)
+                    _memset (3)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _Down (1)
+                _LCD_CLS (2)
+                    _LCD_WrCmd (3)
+                    _LCD_WrDat (3)
+                _showMenu (2)
+                    _LCD_P14x16Ch (3)
+                        _LCD_Set_Pos (4)
+                            _LCD_WrCmd (5)
+                        _Crom2Prom (4)
+                        _LCD_WrDat (4)
+                _LCD_P50x50Chb (2)
+                    _LCD_Set_Pos (3)
+                        _LCD_WrCmd (4)
+                    _Crom2Prom (3)
+                    _LCD_WrDat (3)
+                _Uart_SendCMD (2)
+                    _DoSum (3)
+                        _Crom2Prom (4)
+                    _SendCmd (3)
+                        _send_byte (4)
+                        _Crom2Prom (4)
+                _ESP8266_SendCmd (2)
+                    _send_buff (3)
+                        _send_char (4)
+                        _Crom2Prom (4)
+                    _ESP8266_WaitRecive (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                    _ESP8266_Clear (3)
+                        _memset (4)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _Water (1)
+                _LCD_CLS (2)
+                    _LCD_WrCmd (3)
+                    _LCD_WrDat (3)
+                _showMenu (2)
+                    _LCD_P14x16Ch (3)
+                        _LCD_Set_Pos (4)
+                            _LCD_WrCmd (5)
+                        _Crom2Prom (4)
+                        _LCD_WrDat (4)
+                _LCD_P50x50Chb (2)
+                    _LCD_Set_Pos (3)
+                        _LCD_WrCmd (4)
+                    _Crom2Prom (3)
+                    _LCD_WrDat (3)
+                _Uart_SendCMD (2)
+                    _DoSum (3)
+                        _Crom2Prom (4)
+                    _SendCmd (3)
+                        _send_byte (4)
+                        _Crom2Prom (4)
+                _ESP8266_SendCmd (2)
+                    _send_buff (3)
+                        _send_char (4)
+                        _Crom2Prom (4)
+                    _ESP8266_WaitRecive (3)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _strlen (3)
+                        _Crom2Prom (4)
+                    _ESP8266_Clear (3)
+                        _memset (4)
+                    _delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+            _check_key (1)
+                _Uart_SendCMD (2)
+                    _DoSum (3)
+                        _Crom2Prom (4)
+                    _SendCmd (3)
+                        _send_byte (4)
+                        _Crom2Prom (4)
+            _delay_ms (1)
+                _builtin_holtek_delay_isr00 (2)
+    @dummy20
+        _t0isr (0)
+    @dummy56
+        _t2isr (0)
+    @dummy24
+        _t1isr (0)
+    @dummy60
+        _UART0 (0)
+            _get_buff (1)
+    _send1_buff
+        _send1_char (0)
+        _Crom2Prom (0)
+    @dummy4
+        _int0 (0)
+    _LCD_P8x16Str
+        _LCD_Set_Pos (0)
+            _LCD_WrCmd (1)
+        _Crom2Prom (0)
+        _LCD_WrDat (0)
+    _LCD_P50x50Cha
+        _LCD_Set_Pos (0)
+            _LCD_WrCmd (1)
+        _Crom2Prom (0)
+        _LCD_WrDat (0)
+
+HLINK : ³ÌÐòµÄ¿ªÊ¼Ö´ÐÐµãÔÚ³ÌÐò¶Î'@code'£¨µØÖ·0£©¡£¶¨ÒåÔÚ'c:\users\ÂäÒ¶\desktop\htproject\down_demo\MAIN.OBJ' ÎÄ¼þÖÐ
+
+´íÎó×ÜÊý : 0  ¾¯¸æ×ÜÊý : 0

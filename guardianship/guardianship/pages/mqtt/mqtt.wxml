@@ -1,0 +1,13 @@
+<view>久坐次数： {{downCount}} 次</view>
+<View>设置久坐提醒时间: </View>
+<input bindinput="setTime" type="text" placeholder="请输入时间(以秒为单位)"/>
+<view>
+今日坐下时长： {{todayTime}} 秒
+</view>
+
+<View>选择音乐</View>
+<input bindinput="setMusic" type="text" placeholder="请输入1\\2"/>
+
+<view class="box">
+<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#7cd0ce",
+  "navigationBarTitleText": "久坐监护",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true
+}

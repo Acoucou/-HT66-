@@ -1,0 +1,51 @@
+<view class="content1">
+    <button wx:if="{{connectState == true}}" style="background-color: #88dfdd; border-radius: 40rpx;">
+        已连接
+    </button>
+    <button wx:else="" style="background-color: rgb(204, 207, 207); border-radius: 40rpx;">
+        未连接
+    </button>
+    <view class="downCount">久坐次数： {{downCount}} 次</view>
+    <view class="waterCount">喝水次数： {{waterCount}} 次</view>
+    <view class="allTime">
+    今日坐下时长： {{todayTime}} 秒
+    </view>
+</view>
+
+<!-- <button bindtap="test">
+test
+</button> -->
+
+<view class="content2">
+    <image mode="widthFix" src="../../image/music.jpg" style="width: 160rpx; padding-left: 39%;"></image>
+    <button bindtap="selectMusic" style="background-color: #cfbea3;">
+        选择音乐
+    </button>
+    <image mode="widthFix" src="../../image/vedio.jpg" style="width: 160rpx; padding-left: 39%; margin-top: 30rpx;"></image>
+    <button bindtap="selectVideo" style="background-color: #d9d9d9;">
+        选择视频
+    </button>
+    <View>{{time}}</View>
+</view>
+
+<view class="setting">
+    <view class="set1">
+        <view class="setTime1">设置久坐提醒时间</view>
+        <input bindinput="setTime1" type="text" placeholder="请输入时间(以秒为单位)" style="margin-top: 10rpx;"/>
+    </view>
+
+    <view class="set2">
+        <view class="setTime2">设置喝水提醒时间</view>
+        <input bindinput="setTime2" type="text" placeholder="请输入时间(以秒为单位)" style="margin-top: 10rpx;"/>
+    </view>
+
+    <view class="set3">
+        <view class="setTime3">设置播放的音乐</view>
+        <input bindinput="setTime3" type="text" placeholder="请输入第几首音乐" style="margin-top: 10rpx;"/>
+    </view>
+
+    <view class="set3">
+        <button bindtap="musicList">音乐列表</button>
+    </view>
+</view>
+<!-- 目前长期性订阅消息仅向政务民生、医疗、交通、金融、教育等线下公共服务开放，后期将逐步支持到其他线下公共服务业务 -->

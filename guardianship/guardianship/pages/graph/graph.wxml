@@ -1,0 +1,21 @@
+<view class="content1">
+      <view class="box1">
+       <ec-canvas id="mychart-dom-bar1" canvas-id="one" ec="{{ ec1}}"></ec-canvas>
+      </view>
+</view>
+
+ <!-- <view bindtap="getTime" style="color:block;font-size: 15px;margin-left: 20%;">当前时间 {{timer}}</view>  -->
+<view class="content2">
+  <view class="sitdown">坐下时间(s)</view>
+  <view class="box2">
+  <ec-canvas id="mychart-dom-bar2" canvas-id="two" ec="{{ ec2}}"></ec-canvas>
+</view>
+</view>
+
+<view class="content3">
+  <view class="history">历史记录</view>
+  <view class="box3" >
+    <ec-canvas id="mychart-dom-bar3" canvas-id="three" ec="{{ ec3}}"></ec-canvas>
+  </view>
+</view>
+

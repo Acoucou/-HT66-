@@ -1,0 +1,13 @@
+view {
+    margin-top: 40rpx;
+}
+
+.box {
+    width: auto;
+    height: 50%;
+    position: absolute;
+    top: 500rpx;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

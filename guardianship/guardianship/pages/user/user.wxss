@@ -1,0 +1,7 @@
+.about{
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 50rpx;
+    background-color: white;
+    border-radius: 50rpx;
+}

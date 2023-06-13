@@ -1,0 +1,22 @@
+<view>
+    <image mode="widthFix" src="../../image/header.jpg" style="width: 200rpx; padding-left: 37%; margin-top: 20rpx;"></image>
+    <view style="text-align: center;">
+        <text>coucou</text>
+    </view>
+</view>
+
+<view class="about">
+    <button>设置</button>
+</view>
+
+<view class="about">
+    <button>反馈</button>
+</view>
+
+<view class="about">
+    <button>关于我们</button>
+</view>
+
+<view class="about">
+    <button>退出登录</button>
+</view>

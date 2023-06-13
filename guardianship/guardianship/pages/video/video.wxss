@@ -1,0 +1,19 @@
+.input{
+    margin-top: 30rpx;
+    padding-top: 15rpx;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 70rpx;
+    background-color: white;
+    text-align: center;
+    border-radius: 50rpx;
+}
+
+.video1{
+    margin-top: 30rpx;
+    width: 95%;
+    height: 590rpx;
+    border-radius: 1rpx;
+    margin-left: 2.5%;
+    background-color: white;
+}

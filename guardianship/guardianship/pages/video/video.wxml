@@ -1,0 +1,32 @@
+<view class="input">
+    <input type="text" placeholder="search"/>
+</view>
+
+<view class="video1">
+    <video src="https://kvideo01.youju.sohu.com/5114c942-f75e-4f80-89ae-812d1300fa672_0_0.mp4" style="margin-left: 6.4%; margin-top: 50rpx;"></video>
+    <view style="margin-left: 10%;">
+        简介：护眼操视频教学
+    </view>
+</view>
+
+<view class="video1">
+    <video src="https://vd3.bdstatic.com/mda-im7sw3x6e408izx9/sc/mda-im7sw3x6e408izx9.mp4?v_from_s=hkapp-haokan-hna&auth_key=1646920870-0-0-4e41ce004b741252a19f81d50102348a&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=1870477107&vid=8428546816505615071&abtest=100815_2-17451_1&klogid=1870477107" style="margin-left: 6.4%; margin-top: 50rpx;"></video>
+    <view style="margin-left: 10%;">
+        简介：护颈操教学视频
+    </view>
+</view>
+
+<view class="video1">
+    <video src="https://vd4.bdstatic.com/mda-jifj3sm1s0gr2sy2/sc/mda-jifj3sm1s0gr2sy2.mp4?v_from_s=hkapp-haokan-hnb&auth_key=1646921140-0-0-58d1bba9a4a09e39a0754da14bc428cf&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=2140098757&vid=17600700235309419888&abtest=100815_2-17451_1&klogid=2140098757" style="margin-left: 6.4%; margin-top: 50rpx;"></video>
+    <view style="margin-left: 10%;">
+        简介：放松操教学视频
+    </view>
+</view>
+
+<view class="video1">
+    <video src="http://pgcvideo-cdn.xiaodutv.com/157370333_347436702_20220307094808.mp4?Cache-Control%3Dmax-age-8640000%26responseExpires%3DWed%2C_15_Jun_2022_09%3A48%3A12_GMT=&xcode=7109d2f0aad48f7b0fbe9d86acb9598f41a51ac1598f128e&time=1646922146&_=1646836760375" style="margin-left: 6.4%; margin-top: 50rpx;"></video>
+    <view style="margin-left: 10%;">
+        简介：老生常谈
+    </view>
+</view>
+

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#7cd0ce",
+  "navigationBarTitleText": "可视化报告",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true
+}

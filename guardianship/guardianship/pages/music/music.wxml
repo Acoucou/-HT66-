@@ -1,0 +1,47 @@
+<view class="input">
+    <input type="text" placeholder="search"/>
+</view>
+
+<view>
+    <text></text>
+</view>
+
+<view class="cont">
+    <text>全部歌曲</text>
+    <image class="img" mode="widthFix" src="../../image/playAudio.jpg"></image>
+</view>
+
+<view class="music" type>
+    <audio class="audio" type poster="http://coucou.usa3v.vip/yan.jpg"
+     name="眼保健操" author="群星" id="myAudio"
+     controls="false" loop="false"
+    src="http://coucou.usa3v.vip/yan.mp3"></audio>
+</view>
+
+<view class="music">
+    <audio poster="http://coucou.usa3v.vip/anmo.jpg"
+     name="按摩环境" author="轻松的水疗音乐 诱惑" id="myAudio"
+     controls="false" loop="false"
+    src="http://coucou.usa3v.vip/anmo.mp3"></audio>
+</view>
+
+<view class="music">
+    <audio poster="http://coucou.usa3v.vip/path.jpg"
+     name="path" author="coucou" id="myAudio"
+     controls="false" loop="false"
+    src="http://coucou.usa3v.vip/path.mp3"></audio>
+</view>
+
+<view class="music">
+    <audio poster="http://coucou.usa3v.vip/quiet.jpg"
+     name="安静钢琴曲" author="coucou" id="myAudio"
+     controls="false" loop="false"
+    src="http://coucou.usa3v.vip/quiet.mp3"></audio>
+</view>
+
+<view class="music">
+    <audio poster="http://coucou.usa3v.vip/you.jpg"
+     name="You" author="coucou" id="myAudio"
+     controls="false" loop="false"
+    src="http://coucou.usa3v.vip/you.mp3"></audio>
+</view>
